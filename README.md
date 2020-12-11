@@ -1,12 +1,3 @@
-# [Portfolio](https://portfoliousingflask.herokuapp.com/contact)
+# Portfolio LinkedIn Link : [Click me](https://www.linkedin.com/posts/vicky-kumar-433542190_flask-portfoliowebsite-activity-6726009265565274113-w7HY)
 
-[![app.py](https://raw.githubusercontent.com/imvickykumar999/Portfolio-using-Flask/main/screenshot.png)](https://github.com/imvickykumar999/Portfolio-using-Flask/blob/main/app.py)
-
-## Download my WebApp's APK
-[![download webapp](https://raw.githubusercontent.com/imvickykumar999/Portfolio-using-Flask/main/chart.png)](https://appsgeyser.com/api/track/redirect?url=https://files.appsgeyser.com/Oye%20Vix_12473422.apk?src=page)
-
-
-Simple Portfolio using html css and Flask
-----------------------------
-
-[![Profile Photo](https://raw.githubusercontent.com/imvickykumar999/Portfolio-oye-vicks/master/image/profile.jpg)](https://imvickykumar999.github.io/Portfolio-oye-vicks/)
+[![app.py](https://github.com/imvickykumar999/Portfolio-with-Flask/blob/main/deployed%20on%20heroku.png?raw=true)](https://vixportfoliowithflask.herokuapp.com/contact)
