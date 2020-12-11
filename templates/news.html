@@ -1,0 +1,166 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Vicks News</title>
+  </head>
+
+  <body>
+
+    <div class="jumbotron">
+      <div class="container">
+
+        <div class="alert alert-warning" role="alert">
+          <center>
+            <a href="https://inshorts.com/en/read">
+              <h1>Webscraping Inshorts News Data</h1>
+            </a>
+          </center>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-md-2">
+
+<!-- 1st card -->
+          <div class="col mb-4">
+            <div class="card">
+              <a href={{ia[0]}}>
+                <!-- <img src="../static/news/_0.jpg" class="card-img-top" alt="0"> -->
+                <img src={{ia[0]}} class="card-img-top">
+              </a>
+              <div class="card-body">
+                <center>
+                  <h5 class="card-title">{{ha[0]}}</h5>
+                  <br>
+                  <p class="card-text">{{ba[0]}}</p>
+                  <br>
+                  <a href="{{la[0]}}" class="btn btn-primary">Read More</a>
+                </center>
+              </div>
+            </div>
+          </div>
+
+<!-- 2 -->
+          <div class="col mb-4">
+            <div class="card">
+              <a href={{ia[1]}}>
+                <!-- <img src="../static/news/_0.jpg" class="card-img-top" alt="0"> -->
+                <img src={{ia[1]}} class="card-img-top">
+              </a>
+              <div class="card-body">
+                <center>
+                  <h5 class="card-title">{{ha[1]}}</h5>
+                  <br>
+                  <p class="card-text">{{ba[1]}}</p>
+                  <br>
+                  <a href="{{la[1]}}" class="btn btn-primary">Read More</a>
+                </center>
+              </div>
+            </div>
+          </div>
+
+<!-- 3 -->
+          <div class="col mb-4">
+            <div class="card">
+              <a href={{ia[2]}}>
+                <!-- <img src="../static/news/_0.jpg" class="card-img-top" alt="0"> -->
+                <img src={{ia[2]}} class="card-img-top">
+              </a>
+              <div class="card-body">
+                <center>
+                  <h5 class="card-title">{{ha[2]}}</h5>
+                  <br>
+                  <p class="card-text">{{ba[2]}}</p>
+                  <br>
+                  <a href="{{la[2]}}" class="btn btn-primary">Read More</a>
+                </center>
+              </div>
+            </div>
+          </div>
+
+
+        <!-- </div> -->
+        <!-- class="row row-cols-1 row-cols-md-2 -->
+
+
+        <!-- <div class="row row-cols-2 row-cols-md-3"> -->
+
+<!-- 4 -->
+          <div class="col mb-4">
+            <div class="card">
+              <a href={{ia[3]}}">
+                <!-- <img src="../static/news/_0.jpg" class="card-img-top" alt="0"> -->
+                <img src={{ia[3]}} class="card-img-top">
+              </a>
+              <div class="card-body">
+                <center>
+                  <h5 class="card-title">{{ha[3]}}</h5>
+                  <br>
+                  <p class="card-text">{{ba[3]}}</p>
+                  <br>
+                  <a href="{{la[3]}}" class="btn btn-primary">Read More</a>
+                </center>
+              </div>
+            </div>
+          </div>
+
+
+<!-- 5 -->
+          <div class="col mb-4">
+            <div class="card">
+              <a href={{ia[4]}}>
+                <!-- <img src="../static/news/_0.jpg" class="card-img-top" alt="0"> -->
+                <img src={{ia[4]}} class="card-img-top">
+              </a>
+              <div class="card-body">
+                <center>
+                  <h5 class="card-title">{{ha[4]}}</h5>
+                  <br>
+                  <p class="card-text">{{ba[4]}}</p>
+                  <br>
+                  <a href="{{la[4]}}" class="btn btn-primary">Read More</a>
+                </center>
+              </div>
+            </div>
+          </div>
+
+
+<!-- 6 -->
+          <div class="col mb-4">
+            <div class="card">
+              <a href={{ia[5]}}>
+                <!-- <img src="../static/news/_0.jpg" class="card-img-top" alt="0"> -->
+                <img src={{ia[5]}} class="card-img-top">
+              </a>
+              <div class="card-body">
+                <center>
+                  <h5 class="card-title">{{ha[5]}}</h5>
+                  <br>
+                  <p class="card-text">{{ba[5]}}</p>
+                  <br>
+                  <a href="{{la[0]}}" class="btn btn-primary">Read More</a>
+                </center>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- class="row row-cols-1 row-cols-md-2 -->
+
+      </div>
+    </div>
+  </body>
+</html>
+
+{% endblock %}
